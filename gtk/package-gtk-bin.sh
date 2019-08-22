@@ -30,6 +30,9 @@ cp ../inst.bak/bin/cmake bin/cmake
 mkdir -p share/cmake-3.14
 cp -r ../inst.bak/share/cmake-3.14 share/
 
+# Copy CTest
+cp ../inst.bak/bin/ctest bin/ctest
+
 # Copy Pkg-Config 
 cp ../inst.bak/bin/pkg-config bin/pkg-config
 
